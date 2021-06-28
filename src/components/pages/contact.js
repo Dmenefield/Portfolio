@@ -8,7 +8,8 @@ export default function() {
        style={{
         background: "url(" + contactPagePicture + ") no-repeat",
         backgroundSize: "cover",
-        backgroundPosition: "center"}}></div>
+        backgroundPosition: "center",
+        }}></div>
         <div  className="right-column">
           <div className="contact-bullet-points">
             <div className="bullet-point-group">
