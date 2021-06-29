@@ -4,25 +4,33 @@
     grid-template-columns: 1fr 1fr;
     height: 100vw;
 
+
     @media  only screen and (max-width: 869px) {
        grid-template-columns: 1fr;
     }
 
     .left-column{
+        padding-left: 30px;
+        padding-top: 30px;
+        padding-right: 30px;
+        font-size: 1.5rem;
+        font-family: inherit;
 
+        @media only screen and (max-width:  869px) {
+            padding: 1px 0px;
+
+        }
+        
         
         
         .about-wrapper {
             background-color: white;
             margin: 10px;
-
-            width: 80%;
-            border-radius: 15px 15px 15px 15px;
+            border-radius: 5px 5px 5px 5px;
             @media only screen and (max-width:  869px) {
                 font-size: 0.5rem;
-                padding: 8px 5px;
                 margin-bottom: 10px;
-                width: 100%;
+            
                 
 
                 .about-text {

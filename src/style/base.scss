@@ -2,6 +2,7 @@ body {
     margin: 0px;
     font-family: 'Titillium Web', sans-serif;
     background-color: rgb(89, 83, 98);
+    width: 100%;
 }
 
 .container {
@@ -9,4 +10,5 @@ body {
     grid-template-columns: 1fr;
     background-color: rgb(89, 83, 98);
     background-repeat: no-repeat;
+    width: 100vw;
 }
