@@ -458,7 +458,7 @@ textarea {
   background-image: linear-gradient(to bottom, #450645, #1e1e1e);
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 869px) {
   .nav-wrapper {
     height: 10px;
     padding-top: 20px;
@@ -491,7 +491,7 @@ textarea {
   color: #207b88;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 869px) {
   .nav-wrapper .right-side {
     font-size: 50%;
   }
@@ -510,7 +510,7 @@ textarea {
   text-shadow: 13px 15px 12px #000000;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 869px) {
   .nav-wrapper .nav-link-wrapper {
     font-size: 50%;
   }
@@ -541,15 +541,9 @@ textarea {
   height: 100vw;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 869px) {
   .content-page-wrapper {
     grid-template-columns: 1fr;
-  }
-}
-
-@media only screen and (max-width: 768px) {
-  .content-page-wrapper .left-column {
-    display: none;
   }
 }
 
@@ -561,7 +555,7 @@ textarea {
   padding: 100px;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 869px) {
   .content-page-wrapper .right-column {
     padding: 0px;
     height: 100vw;
@@ -600,6 +594,12 @@ textarea {
   justify-content: space-around;
 }
 
+@media only screen and (max-width: 869px) {
+  .homepage-wrapper {
+    grid-template-columns: 1fr;
+  }
+}
+
 .homepage-wrapper .btn {
   width: 100%;
 }
@@ -607,6 +607,12 @@ textarea {
 .portfolio-items-wrapper {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+}
+
+@media only screen and (max-width: 869px) {
+  .portfolio-items-wrapper {
+    grid-template-columns: 1fr;
+  }
 }
 
 .portfolio-items-wrapper .portfolio-item-wrapper {
@@ -756,6 +762,13 @@ input {
 
 .portfolio-detail-wrapper {
   width: 100vw;
+}
+
+@media only screen and (max-width: 869px) {
+  .portfolio-detail-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 .portfolio-detail-wrapper .banner {
@@ -2065,4 +2078,4 @@ input {
   left: -124px;
 }
 
-/*# sourceMappingURL=app-47a7f0625b54d017d5b8.map*/
+/*# sourceMappingURL=app-3c1028f69ab74f2ddc8d.map*/

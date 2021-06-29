@@ -4,12 +4,12 @@
     grid-template-columns: 1fr 1fr;
     height: 100vw;
 
-    @media  only screen and (max-width: 768px) {
+    @media  only screen and (max-width: 869px) {
        grid-template-columns: 1fr;
     }
 
     .left-column{
-        @media only screen and (max-width: 768px) {
+        @media only screen and (max-width:  869px) {
         
         }
     }
@@ -21,7 +21,7 @@
         flex-direction: column;
         padding: 100px;
 
-        @media only screen and (max-width: 768px) {
+        @media only screen and (max-width:  869px) {
             padding: 0px;
             height: 100vw;
         }
