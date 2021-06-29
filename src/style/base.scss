@@ -1,11 +1,12 @@
 body {
     margin: 0px;
     font-family: 'Titillium Web', sans-serif;
-    background-color: black;
+    background-color: rgb(89, 83, 98);
 }
 
 .container {
     display:  grid;
     grid-template-columns: 1fr;
     background-color: rgb(89, 83, 98);
+    background-repeat: no-repeat;
 }
