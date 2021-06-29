@@ -4,12 +4,20 @@
     
     .filter-links {
         display: flex;
-        justify-content: space-around;
+        justify-content: space-around;  
+       
+        
+
+        p {
+            color: white;
+            text-shadow: 13px 10px 12px #000000;
+        }
     }
 
     @media only screen and (max-width:  869px) {
         grid-template-columns: 1fr;
      }
+     
 
     .btn {
         width: 100%;
