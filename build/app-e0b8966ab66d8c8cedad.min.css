@@ -553,16 +553,22 @@ textarea {
 .content-page-wrapper .left-column .about-wrapper {
   background-color: white;
   margin: 10px;
-  padding: 1px 15px;
+  width: 80%;
   border-radius: 15px 15px 15px 15px;
 }
 
 @media only screen and (max-width: 869px) {
-  .content-page-wrapper .left-column {
-    padding-left: 0px;
-    padding-top: 0px;
-    padding-right: 0px;
-    font-size: 1rem;
+  .content-page-wrapper .left-column .about-wrapper {
+    font-size: 0.5rem;
+    padding: 8px 5px;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 869px) and (max-width: 869px) {
+  .content-page-wrapper .left-column .about-wrapper .about-text {
+    width: 100%;
   }
 }
 
@@ -2102,4 +2108,4 @@ input {
   left: -124px;
 }
 
-/*# sourceMappingURL=app-e89a304fbcbc7adf9b01.map*/
+/*# sourceMappingURL=app-157834e8099b713065ae.map*/

@@ -15,17 +15,29 @@
         .about-wrapper {
             background-color: white;
             margin: 10px;
-            padding: 1px 15px;
+
+            width: 80%;
             border-radius: 15px 15px 15px 15px;
+            @media only screen and (max-width:  869px) {
+                font-size: 0.5rem;
+                padding: 8px 5px;
+                margin-bottom: 10px;
+                width: 100%;
+                
+
+                .about-text {
+                    @media only screen and (max-width:  869px) {
+                        width: 100%
+                    }
+                }
+                
+            }
             
         }
 
 
         @media only screen and (max-width:  869px) {
-        padding-left: 0px;
-        padding-top: 0px;
-        padding-right: 0px;
-        font-size: 1rem;
+        
         }
     }
 
