@@ -411,7 +411,7 @@ div.filepicker {
 body {
   margin: 0px;
   font-family: 'Titillium Web', sans-serif;
-  background-image: linear-gradient(to bottom, #595362, #060706);
+  background-color: black;
 }
 
 .container {
@@ -547,6 +547,13 @@ textarea {
   .content-page-wrapper {
     grid-template-columns: 1fr;
   }
+}
+
+.content-page-wrapper .left-column .about-wrapper {
+  background-color: white;
+  margin: 10px;
+  padding: 2px 10px;
+  border-radius: 15px 15px 15px 15px;
 }
 
 .content-page-wrapper .right-column {
@@ -2085,4 +2092,4 @@ input {
   left: -124px;
 }
 
-/*# sourceMappingURL=app-59c9cd996bb0ebdfec2b.map*/
+/*# sourceMappingURL=app-83627f4b2a0a0d3d15a4.map*/
