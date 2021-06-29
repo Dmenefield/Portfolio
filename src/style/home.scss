@@ -7,6 +7,10 @@
         justify-content: space-around;
     }
 
+    @media only screen and (max-width: 768px) {
+        grid-template-columns: 1fr;
+     }
+
     .btn {
         width: 100%;
     }
