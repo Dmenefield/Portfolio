@@ -411,11 +411,13 @@ div.filepicker {
 body {
   margin: 0px;
   font-family: 'Titillium Web', sans-serif;
+  background-image: linear-gradient(to bottom, #595362, #060706);
 }
 
 .container {
   display: grid;
   grid-template-columns: 1fr;
+  background-color: #595362;
 }
 
 textarea {
@@ -474,8 +476,8 @@ textarea {
 }
 
 .nav-wrapper .right-side {
+  padding-left: 100px;
   color: #207b88;
-  padding-right: 100px;
   font-size: 1.9rem;
   text-shadow: 13px 15px 12px #000000;
 }
@@ -592,6 +594,11 @@ textarea {
 .homepage-wrapper .filter-links {
   display: flex;
   justify-content: space-around;
+}
+
+.homepage-wrapper .filter-links p {
+  color: white;
+  text-shadow: 13px 10px 12px #000000;
 }
 
 @media only screen and (max-width: 869px) {
@@ -2078,4 +2085,4 @@ input {
   left: -124px;
 }
 
-/*# sourceMappingURL=app-3c1028f69ab74f2ddc8d.map*/
+/*# sourceMappingURL=app-59c9cd996bb0ebdfec2b.map*/
