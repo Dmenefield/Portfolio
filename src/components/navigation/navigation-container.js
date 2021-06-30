@@ -52,7 +52,7 @@ const NavigationComponent = props => {
         </div>
 
         <div className="nav-link-wrapper">
-          <a href='//linkedin.com/in/david-menefield-6b262b113/' activeClassName="nav-link-active">
+          <a href='//linkedin.com/in/david-menefield-jr-6b262b113/' activeClassName="nav-link-active">
             Linkedin
           </a>
         </div>
