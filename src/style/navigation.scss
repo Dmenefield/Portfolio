@@ -15,7 +15,7 @@
         display: flex;
         justify-content: space-between;
         color: black;
-        padding-left: 45px;
+        padding-left: 25px;
     }
 
     .right-side {
@@ -26,7 +26,7 @@
             cursor: pointer;
             color: black;
             transition: 0.5s ease-in-out;
-            margin-right: 25px;
+            margin-right: 50px;
             &:hover {
                 color: $dark-teal;
             }
