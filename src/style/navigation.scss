@@ -20,12 +20,13 @@
 
     .right-side {
         padding-left: 100px;
+        
         a {
-            margin-left: 15px;
+            margin-left: 5px;
             cursor: pointer;
             color: black;
             transition: 0.5s ease-in-out;
-            
+            margin-right: 25px;
             &:hover {
                 color: $dark-teal;
             }
