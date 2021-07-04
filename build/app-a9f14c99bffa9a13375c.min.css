@@ -479,6 +479,7 @@ textarea {
 }
 
 .nav-wrapper .right-side {
+  padding-left: 100px;
   color: #207b88;
   font-size: 1.9rem;
   text-shadow: 13px 15px 12px #000000;
@@ -2113,4 +2114,4 @@ input {
   left: -124px;
 }
 
-/*# sourceMappingURL=app-13f290e45acb7203a5e7.map*/
+/*# sourceMappingURL=app-264ae2ee814b203c643a.map*/
