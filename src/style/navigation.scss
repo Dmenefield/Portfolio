@@ -16,6 +16,7 @@
         justify-content: space-between;
         color: black;
         padding-left: 25px;
+
     }
 
     .right-side {
@@ -35,12 +36,12 @@
         text-shadow: 13px 15px 12px #000000;
         @media only screen and (max-width:  869px){
             font-size: 50%;
+            margin-right: 50px;
         }
     }
     .nav-link-wrapper {
         @media only screen and (max-width:  869px) {
             font-size: 50%;
-            margin-right: 50px;
         }
         position: sticky;
         top: 0;

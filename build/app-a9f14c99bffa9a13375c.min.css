@@ -498,6 +498,7 @@ textarea {
 @media only screen and (max-width: 869px) {
   .nav-wrapper .right-side {
     font-size: 50%;
+    margin-right: 50px;
   }
 }
 
@@ -517,7 +518,6 @@ textarea {
 @media only screen and (max-width: 869px) {
   .nav-wrapper .nav-link-wrapper {
     font-size: 50%;
-    margin-right: 50px;
   }
 }
 
@@ -2113,4 +2113,4 @@ input {
   left: -124px;
 }
 
-/*# sourceMappingURL=app-00be4535aca7b00987c9.map*/
+/*# sourceMappingURL=app-13f290e45acb7203a5e7.map*/
