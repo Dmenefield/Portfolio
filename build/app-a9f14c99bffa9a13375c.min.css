@@ -479,8 +479,6 @@ textarea {
 }
 
 .nav-wrapper .right-side {
-  padding-left: 75px;
-  margin-right: 50px;
   color: #207b88;
   font-size: 1.9rem;
   text-shadow: 13px 15px 12px #000000;
@@ -519,6 +517,7 @@ textarea {
 @media only screen and (max-width: 869px) {
   .nav-wrapper .nav-link-wrapper {
     font-size: 50%;
+    margin-right: 50px;
   }
 }
 
@@ -2114,4 +2113,4 @@ input {
   left: -124px;
 }
 
-/*# sourceMappingURL=app-8c0adcc7b618396eecbc.map*/
+/*# sourceMappingURL=app-00be4535aca7b00987c9.map*/
