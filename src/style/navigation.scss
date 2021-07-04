@@ -19,14 +19,14 @@
     }
 
     .right-side {
-        padding-left: 100px;
+        padding-left: 75px;
+        margin-right: 50px;
         
         a {
             margin-left: 5px;
             cursor: pointer;
             color: black;
             transition: 0.5s ease-in-out;
-            margin-right: 50px;
             &:hover {
                 color: $dark-teal;
             }
