@@ -19,8 +19,7 @@
     }
 
     .right-side {
-        padding-left: 75px;
-        margin-right: 50px;
+       
         
         a {
             margin-left: 5px;
@@ -41,6 +40,7 @@
     .nav-link-wrapper {
         @media only screen and (max-width:  869px) {
             font-size: 50%;
+            margin-right: 50px;
         }
         position: sticky;
         top: 0;
